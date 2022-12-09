@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 6
+   Case Problem 2
+
+   Sudoku Style Sheet
+   Author: Hesbon Osoro
+   Date: 12/9/22   
+
+   Filename:         jpf_sudoku.css
+
+*/
+
+/* Table Styles */
+table.spuzzle {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 90%;
+}
+
+th {
+  color: gray;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+tbody td {
+  width: 33.3%;
+  border: 5px outset gray;
+}
+
+/* Inner Table Styles */
+table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table table tr td {
+  -moz-box-shadow: inset 0 0 10px black;
+  -webkit-box-shadow: inset 0 0 10px black;
+  box-shadow: inset 0 0 15px black;
+
+  border: 1px solid black;
+  color: blue;
+  height: 40px;
+  padding: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+td.goldBox {
+  background-color: rgb(228, 199, 42);
+}
+
+td.greenBox {
+  background-color: rgb(203, 229, 130);
+}
